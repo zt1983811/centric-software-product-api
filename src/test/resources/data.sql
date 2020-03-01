@@ -1,5 +1,3 @@
-SET FOREIGN_KEY_CHECKS=0;
-SET REFERENTIAL_INTEGRITY FALSE;
 INSERT INTO categories (`name`) VALUES ('beer'), ('wine'), ('cake');
 INSERT INTO brands (`name`) VALUES ('nike'), ('adidas'), ('puma');
 INSERT INTO tags (`name`) VALUES ('leo'), ('mouse'), ('dog');
