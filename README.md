@@ -11,7 +11,7 @@ Quiz centric-software-product-api
  mvn spring-boot:run
 ```
 2. Visit API doc 
-http://localhost:8080/swagger-ui/index.html
+http://localhost:8080/swagger-ui.html
 
 3. Try to add product with following payload
 ```$xslt

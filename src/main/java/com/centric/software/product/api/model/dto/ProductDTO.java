@@ -23,7 +23,7 @@ public class ProductDTO {
 
     private List<String> tags;
 
-    @Schema(defaultValue = "abc")
+    @Schema(defaultValue = "red")
     private String category;
 
     @Schema(hidden = true)

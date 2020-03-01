@@ -5,6 +5,7 @@ import com.centric.software.product.api.exception.RequestCategoryNotFound;
 import com.centric.software.product.api.model.dto.ProductDTO;
 import com.centric.software.product.api.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.mapping.PropertyReferenceException;
 import org.springframework.http.HttpStatus;
@@ -14,6 +15,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @Slf4j
+@Tag(name = "products", description = "Products Endpoints Version 1")
 @RestController
 @RequestMapping(path = "/v1/products", produces = "application/json")
 public class ProductController {
