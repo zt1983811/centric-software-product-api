@@ -1,5 +1,5 @@
 # Centric Software Product API 
-![CI](https://github.com/zt1983811/centric-software-product-api/workflows/CI/badge.svg)
+[![CI](https://github.com/zt1983811/centric-software-product-api/workflows/CI/badge.svg)](https://github.com/zt1983811/centric-software-product-api/actions)
 
 Quiz centric-software-product-api
 
