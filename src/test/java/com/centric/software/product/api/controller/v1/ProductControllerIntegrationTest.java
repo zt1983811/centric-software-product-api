@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // Integration Test
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class ProductControllerIIntegrationTest {
+class ProductControllerIntegrationTest {
 
     private final static String HOST = "http://localhost:";
 
